@@ -1,37 +1,20 @@
 # Anti-Brucella Antibody Aptasensor
 
-This repository contains the relevant datasets, figure/source files, and AI model/code associated with the manuscript:
+## AI-supported aptamer analysis data
 
-**AI-supported development of a PMMA photonic-crystal aptasensor for label-free detection of an anti-Brucella antibody standard**
+This repository includes the AI-supported data and model files used for Apt-23 candidate assessment in the manuscript. The AI workflow was used to support aptamer prioritization for recognition of the anti-Brucella A antigen antibody/YsT9.1 standard.
 
-The study reports a plate-compatible PMMA photonic-crystal aptasensor using Apt-23 as the recognition element for label-free optical detection of a purified anti-Brucella A antigen antibody/YsT9.1 standard. The optical response was monitored using peak wavelength shift (Δλ) and transmittance response (ΔT).
+The uploaded AI-related files include sequence-descriptor data, random forest model/supporting analysis files, feature-importance outputs, and candidate aptamer ranking/support files. These files support the computational part of the study, including:
 
-## Contents
+- random forest-supported sequence-context analysis;
+- nucleotide, dinucleotide and trinucleotide feature evaluation;
+- GC-content and sequence-descriptor analysis;
+- preliminary aptamer candidate scoring;
+- docking-supported Apt-23 prioritization;
+- source data used for AI-related manuscript and supplementary figures.
 
-- AI-supported aptamer candidate assessment files
-- Random forest model/code and sequence-descriptor files
-- Docking and molecular-simulation supporting files
-- Optical sensing datasets for Δλ and ΔT analysis
-- Calibration, LOD/LOQ, specificity, matrix-effect, recovery and regeneration source data
-- Source files used to generate the manuscript and supplementary figures
+In this study, the AI model was used as a supporting candidate-assessment tool, not as the sole basis for aptamer discovery. Apt-23 was selected based on convergent evidence from AI-supported sequence-context analysis, descriptor evaluation, docking comparison, and experimental optical validation on the PMMA photonic-crystal aptasensor platform.
 
-## Main analytical details
+## Important note
 
-- Recognition element: Apt-23
-- Target: anti-Brucella A antigen antibody/YsT9.1 standard
-- Sensor platform: PMMA photonic crystal aptasensor
-- Optical readouts: Δλ and ΔT
-- Working analytical response interval: 1–75 ng mL⁻¹
-- Blank-based LODs:
-  - 1.9 ng mL⁻¹ for Δλ
-  - 2.8 ng mL⁻¹ for ΔT
-- Regeneration response retention: 87.5% after five assay cycles
-
-## Notes
-
-This repository supports an analytical antibody-standard detection study. The uploaded files are not intended to claim clinical or veterinary diagnostic validation. Future blinded real-sample validation against established reference methods is required before diagnostic application.
-
-## Citation
-
-If you use these files, please cite the associated manuscript after publication.# Anti-Brucella-antibody-
-Datasets, source files and AI model/code for a PMMA photonic-crystal Apt-23 aptasensor for label-free detection of an anti-Brucella antibody standard.
+The AI data and model files are provided to improve transparency and reproducibility of the computational workflow. The uploaded files support an analytical antibody-standard detection study. They should not be interpreted as clinical diagnostic validation data.
